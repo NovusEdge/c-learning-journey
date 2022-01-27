@@ -119,6 +119,26 @@ Machine and assembly languages are referred to as low-level languages since the 
 
 **_Definition_** : _An   **assembler**   is a translator that takes input in the form of the assembly language program and produces machine language code as its output._
 
+An assembly language program cannot be executed by a machine directly as it is not in a binary machine language form. An assembler is needed to translate an assembly language program into the object code, which can then be 
+executed by the machine. The object code is the machine language code.
+
+
+![Fig 1.6](fig-1.6.png)
+
+**Advantages of Assembly Language**: It makes it simpler compared to machine language to write instructions to a computer.
+
+**Disadvantages of Assembly Language**:
+- Machine Specific
+- Difficult and Time Consuming
+- The programmer should know all about the logical  structure of the computer. 
+
+All in all, the problem with assembly language is that it didn't solve as many problems that were found in machine language, i.e. the problems like being difficult to learn and being machine specific. 
+
+What assembly language bring about, though, was the abstraction of instructions which led to more languages doing similar stuff.
+
+I believe it's best to end "Day: 1" at this. 
+Cheers! 🎊
+
 
 [^1]: _It is a system software that  transforms a computer program written by a user into a form that can be understood by the machine_
 [^2]: _An operating system manages the computer’s resources effectively, takes care of scheduling multiple jobs for execution, and manages the flow of data and instructions between the input/output units and the main memory._
