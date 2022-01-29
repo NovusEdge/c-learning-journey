@@ -140,14 +140,22 @@ The following figure from the textbook shows an excellent representation of how 
 ![Fig 1.9](fig-1.9.png)
 
 
-Thus, a loader is a program that places a program’s instructions and data into primary storage locations. 
+Thus, a loader is a program that places a program’s instructions and data into primary storage locations.
 
-+ An absolute loader places these items into the precise locations indicated in the machine language program. 
++ An absolute loader places these items into the precise locations indicated in the machine language program.
 + A relocating loader may load a program at various places in primary storage depending on the availability of primary storage area at the time of loading.
 
 A program may be relocated dynamically with the help of a relocating register. The base address of the program in primary storage is placed in the relocating register. The contents of the relocation register are added to each address developed by a running program.
 
 The user is able to execute the program as if it begins at location zero. At execution time, as the program runs, all address references involve the relocation register. This allows the program to reside in memory locations other than those for which it was translated to occupy
+
+
+### Linking Loader and Linkage editor
+
+The process of program combination is called linking and the software that performs this operation is variously known as a linking loader or a linkage editor . Linking is done after object code generation, prior to program execution time.
+
+An important thing to note is:
+_At load time, a linking loader combines whatever programs are required and loads them directly into primary storage. A linkage editor also performs the same task, but it creates a load image that it preserves on secondary storage for future reference._
 
 
 I will end Day 2, on this topic. :)
