@@ -7,13 +7,13 @@ In the name of Allah, The most Kind, The Most Merciful.
 After some rummaging through resource lists, I concluded that the book: "Programming in C: Second Edition" by Pradip Dey and Manas Ghosh, is the best starting point.
 
 
-Although I have a strong foundation in programming concepts at the time of writing this, I believe that it'll do me no harm on reading the first chapter: 
+Although I have a strong foundation in programming concepts at the time of writing this, I believe that it'll do me no harm on reading the first chapter:
 "INTRODUCTION TO PROGRAMMING, ALGORITHMS AND FLOWCHARTS". I will be noting down important stuff, as well as my observations and ideas as I read the chapter, below:
 
 
 ## Introduction to Programming, Algorithms and Flowcharts
 
-**_Definition_**: _A program is a set of logically related instructions that is arranged in a sequence that directs the computer in solving a problem._
+***Definition***: _A program is a set of logically related instructions that is arranged in a sequence that directs the computer in solving a problem._
 
 
  - Computer software can be broadly classi   fied into two categories:
@@ -24,7 +24,7 @@ Although I have a strong foundation in programming concepts at the time of writi
 
 ### System Software
 
-**_Definition_** :  _System software is a collection of programs that interfaces  
+***Definition*** :  _System software is a collection of programs that interfaces  
 with the hardware._
 
 
@@ -38,7 +38,7 @@ System Software can be classified into the following types:
 
 ### Application Software
 
-**_Definition_** :  _Application software is written to enable the computer to solve a specific data processing task._
+***Definition*** :  _Application software is written to enable the computer to solve a specific data processing task._
 
 There are two types of this kind of software:
 - Pre-written software packages
@@ -52,7 +52,7 @@ In simpler words, the book tells us that the first category, i.e. Pre-written so
 
 As the book puts it: _A programming language is composed of a set of instructions in a language understandable to the programmer and recognizable by a computer._
 
-This is quite incomplete as is, but it serves the basic purpose of telling a person new to programming what _programming languages_[^3] are. A more complete discription is: 
+This is quite incomplete as is, but it serves the basic purpose of telling a person new to programming what _programming languages_[^3] are. A more complete discription is:
 
 
 _A programming language is any set of rules that converts [strings](https://en.wikipedia.org/wiki/Formal_language#Words_over_an_alphabet "Formal language"), or [graphical](https://en.wikipedia.org/wiki/Computer_graphics "Computer graphics") [program](https://en.wikipedia.org/wiki/Computer_program "Computer program") elements in the case of [visual programming languages](https://en.wikipedia.org/wiki/Visual_programming_language "Visual programming language"), to various kinds of [machine code output](https://en.wikipedia.org/wiki/Machine_code "Machine code")._
@@ -62,7 +62,7 @@ A programming language can be classified into the following types:
 
 - High-level programming language; eg: Python, Dart, Go, Rust, Java … etc
 - Middle-level programming language; eg: C/C++.
-- Low-level programming language; eg: Assembly. 
+- Low-level programming language; eg: Assembly.
 
 Assembly language, which has a one-to-one correspondence with machine code, was the normal choice or writing system programs like operating systems. But, today C is widely used to develop system software.
 
@@ -70,15 +70,15 @@ Assembly language, which has a one-to-one correspondence with machine code, was 
 
 ### Low-level Programming Languages
 
-**_Definition_** : _A low-level computer programming language is one that is closer to the native language of the computer, which is 1’s and 0’s._
+***Definition*** : _A low-level computer programming language is one that is closer to the native language of the computer, which is 1’s and 0’s._
 
 
-Now, we look into the most basic mode of insturction we can use: 
+Now, we look into the most basic mode of insturction we can use:
 <details open>
 <summary>Machine Language</summary>
 
 + This is a sequence of instructions written in the form of binary numbers consisting of 1’s and 0’s to which the computer responds directly.
-    
+
 + The machine language is also referred to as the machine code, although the term is used more broadly to refer to any program text.
 </details>
 
@@ -109,7 +109,7 @@ Here's the advantages and disadvantages of assembly language:
 
 Now, as is clearly seen, the machine language is way too impractical to use. Thus, it is Assembly language we come to next.
 
-**_Definition_**: _When symbols such as letters, digits, or special characters are employed for the operation, operand, and other parts of the instruction code, the representation is called an assembly language instruction. Such representations are known as mnemonic codes; they are used instead of binary codes._
+***Definition***: _When symbols such as letters, digits, or special characters are employed for the operation, operand, and other parts of the instruction code, the representation is called an assembly language instruction. Such representations are known as mnemonic codes; they are used instead of binary codes._
 
 _mnemonic codes_ is just a fancy way to say "_aliases_ for something", like _short-forms_.
 
@@ -117,9 +117,9 @@ _mnemonic codes_ is just a fancy way to say "_aliases_ for something", like _sho
 
 Machine and assembly languages are referred to as low-level languages since the coding for a problem is at the individual instruction level.  Each computer has its own assembly language that is dependent upon the internal architecture of the processor.
 
-**_Definition_** : _An   **assembler**   is a translator that takes input in the form of the assembly language program and produces machine language code as its output._
+***Definition*** : _An   **assembler**   is a translator that takes input in the form of the assembly language program and produces machine language code as its output._
 
-An assembly language program cannot be executed by a machine directly as it is not in a binary machine language form. An assembler is needed to translate an assembly language program into the object code, which can then be 
+An assembly language program cannot be executed by a machine directly as it is not in a binary machine language form. An assembler is needed to translate an assembly language program into the object code, which can then be
 executed by the machine. The object code is the machine language code.
 
 
@@ -130,17 +130,16 @@ executed by the machine. The object code is the machine language code.
 **Disadvantages of Assembly Language**:
 - Machine Specific
 - Difficult and Time Consuming
-- The programmer should know all about the logical  structure of the computer. 
+- The programmer should know all about the logical  structure of the computer.
 
-All in all, the problem with assembly language is that it didn't solve as many problems that were found in machine language, i.e. the problems like being difficult to learn and being machine specific. 
+All in all, the problem with assembly language is that it didn't solve as many problems that were found in machine language, i.e. the problems like being difficult to learn and being machine specific.
 
 What assembly language bring about, though, was the abstraction of instructions which led to more languages doing similar stuff.
 
-I believe it's best to end "Day: 1" at this. 
+I believe it's best to end "Day: 1" at this.
 Cheers! 🎊
 
 
 [^1]: _It is a system software that  transforms a computer program written by a user into a form that can be understood by the machine_
 [^2]: _An operating system manages the computer’s resources effectively, takes care of scheduling multiple jobs for execution, and manages the flow of data and instructions between the input/output units and the main memory._
 [^3]: The definition is taken from a [wikipedia article](https://en.wikipedia.org/wiki/Programming_language) by [CrunchyVersusTheRabbit](https://en.wikipedia.org/wiki/User:CrunchyVersusTheRabbit "User:CrunchyVersusTheRabbit") - 18:01, 25 January 2022
-
