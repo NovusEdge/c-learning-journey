@@ -72,6 +72,4 @@ Natural languages represent the next step in the development of programming lang
 Natural languages already available for microcomputers include CLOUT, Q & A, and SAVY RETRIEVER (for use with databases) and HAL(Human Access Language) for use with LOTUS.
 
 
-That's all I have time for today
-
-> \**sigh\**
+> *Fin*
