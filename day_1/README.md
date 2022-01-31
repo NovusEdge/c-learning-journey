@@ -16,7 +16,7 @@ Although I have a strong foundation in programming concepts at the time of writi
 ***Definition***: _A program is a set of logically related instructions that is arranged in a sequence that directs the computer in solving a problem._
 
 
- - Computer software can be broadly classi   fied into two categories:
+ - Computer software can be broadly classified into two categories:
     - system software
     - application software
 
@@ -50,9 +50,9 @@ In simpler words, the book tells us that the first category, i.e. Pre-written so
 
 ### Programming Languages
 
-As the book puts it: _A programming language is composed of a set of instructions in a language understandable to the programmer and recognizable by a computer._
+As the book puts it: _A programming language is composed of a set of instructions in a language understandable to the programmer and recognisable by a computer._
 
-This is quite incomplete as is, but it serves the basic purpose of telling a person new to programming what _programming languages_[^3] are. A more complete discription is:
+This is quite incomplete as is, but it serves the basic purpose of telling a person new to programming what _programming languages_[^3] are. A more complete description is:
 
 
 _A programming language is any set of rules that converts [strings](https://en.wikipedia.org/wiki/Formal_language#Words_over_an_alphabet "Formal language"), or [graphical](https://en.wikipedia.org/wiki/Computer_graphics "Computer graphics") [program](https://en.wikipedia.org/wiki/Computer_program "Computer program") elements in the case of [visual programming languages](https://en.wikipedia.org/wiki/Visual_programming_language "Visual programming language"), to various kinds of [machine code output](https://en.wikipedia.org/wiki/Machine_code "Machine code")._
@@ -73,7 +73,8 @@ Assembly language, which has a one-to-one correspondence with machine code, was 
 ***Definition*** : _A low-level computer programming language is one that is closer to the native language of the computer, which is 1’s and 0’s._
 
 
-Now, we look into the most basic mode of insturction we can use:
+Now, we look into the most basic mode of instruction we can use:
+
 <details open>
 <summary>Machine Language</summary>
 
@@ -87,7 +88,7 @@ A machine language instruction generally has three parts as shown in Fig. 1.5.
 
 ![Fig 1.5](fig-1.5.png)
 
-The diagram shows three, but in reality there's three _sections_ of a command, i.e. the first specifing the **operation**, the second specifing the **Mode** and the third specifing the **operand**.
+The diagram shows three, but in reality there's three _sections_ of a command, i.e. the first specifying the **operation**, the second specifying the **Mode** and the third specifying the **operand**.
 
 The command as a whole, is divided into two _parts_:
 
