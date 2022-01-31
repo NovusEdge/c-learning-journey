@@ -38,9 +38,8 @@ The compiler examines each program statement contained in the source program and
 **Assembly** is the third stage of compilation. It takes the assembly source code and produces an assembly listing with offsets. The assembler output is then stored in an _object file_[^1]
 The assembler takes each assembly language statement and converts it into a binary format known as object code, which is then written into another file on the system.
 
----
-NOTE: For more information on object files and such, be sure to check information about the [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) format object code
----
+
+***NOTE***: For more information on object files and such, be sure to check information about the [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) format object code
 
 
 **Linking** is the final stage of compilation. The purpose of the linking phase is to get the program into a final form for execution on the computer. The functions are the part of the standard C library, provided by every C compiler.
