@@ -159,6 +159,66 @@ for (initialisation; test_expression; updating) {
 
 - **Initialisation**: This part of the loop is the first to be executed. The statement(s) of this part are executed only once. This statement involves a loop control variable.
 
-- **test_expression**: test_expression represents a test expression that must be true for the loop to continue execution.
+- **test_expression**: `test_expression` represents a test expression that must be true for the loop to continue execution.
 
 - **Updating**: The statements contained here are executed every time through the loop before the loop condition is tested. This statement also involves a loop control variable.
+
+
+### The `do-while` construct
+
+The general form for a `do-while` loop is:
+
+```c
+do {
+    // do something...
+    statement; /* body of statements would be placed here */
+} while(condition);
+```
+
+Since the `do-while` loop has he test expression at the end of the loop, _it is guaranteed that the body of the loop will execute at least once._
+
+
+## The `goto` statement
+
+When this statement is used, the control is **unconditionally** transferred to the statement associated with the label specified in the `goto` statement.
+
+The `goto` statement's usage is:
+
+```c
+goto label_name;
+```
+
+Because the goto statement can interfere with the normal sequence of processing, it makes a program more difficult to read and maintain. Often, a `break` statement, a `continue` statement, or a function call can eliminate the need for a goto statement.
+
+A statement label is defined in exactly the same way as a variable name, which is a sequence of letters and digits, the first of which must be a letter. The statement label must be followed by a colon `:`. Like other statements, the goto statement ends with a semicolon.
+
+
+There are certain control statements, which terminate either a loop or a function. There are three such statements namely: `return`, `break`, and `continue`.
+
+**return statements**: The `return` type is used in the definition of a function to set its returned value and the `return` statement is used to terminate execution of the function. The `return` statement has two forms. Functions with return type `void` use the following form:
+
+```c
+return;
+```
+
+Functions with `non-void` return type use the following form:
+
+```c
+return expression;
+```
+
+Here, `expression` yields the desired return value. _This value must be convertible to the return type declared for the function._
+
+**break statements**: The `break` statement is used in loop constructs such as for, `while` and `do-while`, and `switch` statement to terminate execution of the loop or switch statement. The form of a break statement is:
+
+```c
+break;
+```
+
+It is important to note that after a `break` statement is executed within a loop or a case in a `switch` construct, _execution proceeds to the statement that follows the loop construct or switch statement_.
+
+**continue statements**: The `continue` statement does not terminate the loop but goes to the test expression in the `while` and `do-while` statements and then goes to the updating expression in a `for` statement. It has the following form:
+
+```c
+continue;
+```
