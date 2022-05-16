@@ -59,7 +59,7 @@ dummy() {}
 This function does nothing and returns nothing. _However_, this function is NOT USELESS!
 As the textbook rightfully mentions:
 
-_A do-nothing function like this is sometimes useful as a place holder during program development. If the return type is oq1itted, `int` is assumed._
+_A do-nothing function like this is sometimes useful as a place holder during program development. If the return type is omitted, `int` is assumed._
 
 > Fun fact, I did not know that the default return type assumed by the compiler is _int_. Hell I did not even know if we're allowed to not mention the return type or the compiler can _assume_ return types.
 
@@ -75,3 +75,10 @@ Now, there are a few terms that we need to know before we dive fully into functi
 > I guess I will end the entry for Day 14 here. :P \
 > Hope this was a nice read >.> \
 > Cheers!
+
+---
+
+References:
+- [Programming Vocabulary](https://www.programmingforbeginnersbook.com/blog/expand_your_programming_vocabulary/)
+- [Difference between function definition and function signature](https://stackoverflow.com/questions/2322736/what-is-the-difference-between-function-declaration-and-signature#2323005)
+- [C standard library function definitions](https://github.com/DevSolar/pdclib)
