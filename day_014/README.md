@@ -34,8 +34,7 @@ int printf(const char *format, ...);
 > I know, I have used several unfamiliar terms without introducing them first. :P \
 > Don't worry, if you revisit this topic in the future it'll mean you get an even more clear understanding of what I'm talking about right now. So for now, just keep going on. :)
 
-After giving a code example, the textbook says:
-
+After giving a code example, the textbook says: \
 _Although it's certainly possible to put the code for all of this in main, a better way is to use the structure to advantage by making each part a separate function. Three small pieces are easier to deal with than one big one, because **irrelevant details can be buried in the functions, and the chance of unwanted interactions is minimized. And the pieces may even be useful in other programs**._
 
 The process mentioned above (the removing irrelevant details bit), refers to `abstraction`. (roughly speaking). It's one of the fundamental pillars for the development of many modern technologies, and is one of the 4 fundamental pillars of the `Object Oriented` paradigm of programming.

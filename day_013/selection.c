@@ -27,19 +27,22 @@ int main() {
 		printf("The condition was true after all\n");
 	}
 
-	// An if-else statement can be extended to include many more cases by using "else if" blocks...
+	// An if-else statement can be extended to include many more cases by using
+	// "else if" blocks...
 	if (condition - 10 == -9) {
 		printf("??\n");
 	} else if (condition - 1 == 9) {
-		printf("It's just random conditions but you can try changing the value to see if it helps\n");
+		printf("It's just random conditions but you can try changing \
+		the value to see if it helps\n");
 	} else {
 		printf("Default output here!\n");
 	}
 
-	// There's also the conditional operator (also known as the ternary operator):
+	// There's also the conditional operator, also known as the ternary operator
 	condition = 5 > 10 ? 1 : 10;
 
-	// One may add multiple else if blocks to include more cases, it depends on what's required.
+	// One may add multiple else if blocks to include more cases, it depends on
+	// what's required.
 
 	// Next there's the switch statement:
 	switch (condition) {
