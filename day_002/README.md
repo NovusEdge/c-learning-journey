@@ -27,7 +27,7 @@ High-level programming languages solved many of the problems faced by low-level 
 Always remember, a programming is just yet another tool in the tool-belt of the programmer.
 
 
-## Compilers, Intepreters Loaders, and Linkers.
+## Compilers, Interpreter Loaders, and Linkers.
 
 ***Definition***: _A compiler is a piece of software that translates high-level code into machine code._
 
@@ -53,7 +53,7 @@ The diagnostics is the most crucial part, since it ensures the proper execution 
 There is another type of software that also does
 translation. This is called an *interpreter*.
 
-Here are the differences between a compiler and an intepreter:
+Here are the differences between a compiler and an interpreter:
 
 ![Table 1.1](table-1.1.png)
 
@@ -75,7 +75,7 @@ Here's a short discription for each of these rules:
 
 + Semantic rules assign meanings to valid statements of the language.
 
-A more simpler discription for `syntax rules`:
+A more simpler description for `syntax rules`:
 > Check's if the programming language's "grammar" is all right and not gibberish.
 
 The following diagram shows the process for compilation:
@@ -84,7 +84,7 @@ The following diagram shows the process for compilation:
 
 
 
-The first block is thelexical analyzer. It takes successive lines of a program and breaks them into individual lexical items namely, identifier, operator delimiter, etc (i.e. *tokens*). and attaches a type tag to each of these. Beide this, it constructs a *symbol table*[^2] for each identifier and finds the internal representation of each constant.
+The first block is the lexical analyzer. It takes successive lines of a program and breaks them into individual lexical items namely, identifier, operator delimiter, etc (i.e. *tokens*). and attaches a type tag to each of these. Beside this, it constructs a *symbol table*[^2] for each identifier and finds the internal representation of each constant.
 
 The symbol table is used later to allocate memory to each variable
 

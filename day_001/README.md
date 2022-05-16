@@ -50,7 +50,7 @@ In simpler words, the book tells us that the first category, i.e. Pre-written so
 
 ### Programming Languages
 
-As the book puts it: _A programming language is composed of a set of instructions in a language understandable to the programmer and recognisable by a computer._
+As the book puts it: _A programming language is composed of a set of instructions in a language understandable to the programmer and recognizable by a computer._
 
 This is quite incomplete as is, but it serves the basic purpose of telling a person new to programming what _programming languages_[^3] are. A more complete description is:
 

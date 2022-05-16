@@ -150,7 +150,7 @@ If initially, `test_expression` is true, the loop body will be executed until th
 A loop formed by using the `for` statement is generally called a determinate or de finite loop because the programmer knows exactly how many times it will repeat. The number of repetitions can be determined mathematically by manually checking the logic of the loop. The general form of the for statement is as follows:
 
 ```c
-for (initialisation; test_expression; updating) {
+for (initialization; test_expression; updating) {
     // ...
     // Loop Body
     // ...
