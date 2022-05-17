@@ -5,6 +5,8 @@ In the name of Allah, The most Powerful, The Most Beneficent.
 The last time, I left my notes to the topic of: `Assembly Language`.
 I will now continue with the next topic, i.e. `High-level Languages` :smile:
 
+> There's a lot of technical terms, but don't worry, you don't need to remember them all, you can always use the internet to look them up if you ever forget something.
+
 ### High-level programming languages:
 
 Such languages have instructions that are similar to human languages and have a set grammar that makes it easy for a programmer to write programs and identify and correct errors in them.

@@ -4,28 +4,32 @@ In the name of Allah, The most Kind, The Most Merciful.
 
 > Behold! The first day of my journey, may it serve as a reference point for anyone who wants to begin as I did.
 
-After some rummaging through resource lists, I concluded that the book: "Programming in C: Second Edition" by Pradip Dey and Manas Ghosh, is the best starting point.
+After some rummaging through resource lists, I concluded that the book: _"Programming in C: Second Edition" by Pradip Dey and Manas Ghosh_, is the best starting point.
 
 
-Although I have a strong foundation in programming concepts at the time of writing this, I believe that it'll do me no harm on reading the first chapter:
-"INTRODUCTION TO PROGRAMMING, ALGORITHMS AND FLOWCHARTS". I will be noting down important stuff, as well as my observations and ideas as I read the chapter, below:
+~~Although I have a strong foundation in programming concepts at the time of writing this, I believe that it'll do me no harm on reading the first chapter:
+"INTRODUCTION TO PROGRAMMING, ALGORITHMS AND FLOWCHARTS". I will be noting down important stuff, as well as my observations and ideas as I read the chapter, below~~:
+
+> Ok new plan, I'll just write the entries as if I'm actually teaching someone. I believe that it will be far better that way.
 
 
 ## Introduction to Programming, Algorithms and Flowcharts
 
 ***Definition***: _A program is a set of logically related instructions that is arranged in a sequence that directs the computer in solving a problem._
 
+A simpler definition is:
 
- - Computer software can be broadly classified into two categories:
-    - system software
-    - application software
+_A program is just a bunch of text that's written in a special way so that a computer can understand it. Also, this is not just used for problem solving but also dumb stuff like making cats dance across the screen or something._
+
+Computer software can be broadly classified into two categories:
+- system software
+- application software
 
 ***
 
 ### System Software
 
-***Definition*** :  _System software is a collection of programs that interfaces  
-with the hardware._
+***Definition*** :  _System software is a collection of programs that interfaces with the hardware._
 
 
 System Software can be classified into the following types:
@@ -41,8 +45,8 @@ System Software can be classified into the following types:
 ***Definition*** :  _Application software is written to enable the computer to solve a specific data processing task._
 
 There are two types of this kind of software:
-- Pre-written software packages
-- User Application programs
+- Pre-written software packages (written by extra genius programming wizards)
+- User Application programs (written by us dumb people)
 
 In simpler words, the book tells us that the first category, i.e. Pre-written software programs serve as a foundation for users to build their own applications, i.e User Application programs.
 
@@ -66,23 +70,25 @@ A programming language can be classified into the following types:
 
 Assembly language, which has a one-to-one correspondence with machine code, was the normal choice or writing system programs like operating systems. But, today C is widely used to develop system software.
 
+
+> A simpler way to look at this high and low business is to remember the following:\
+> _The lower you are, the more closer you work with the computer's actual hardware, and the closer you are to writing actual machine code._
+
+
 ***
+
+> Now, let me get this straight, if you're not interested in getting into the little details and just want to get started with the coding part of programming, please skip sections like these, but remember, the more knowledge you have the better you can understand how things work.
 
 ### Low-level Programming Languages
 
 ***Definition*** : _A low-level computer programming language is one that is closer to the native language of the computer, which is 1’s and 0’s._
 
-
 Now, we look into the most basic mode of instruction we can use:
 
-<details open>
-<summary>Machine Language</summary>
+Machine Language
 
 + This is a sequence of instructions written in the form of binary numbers consisting of 1’s and 0’s to which the computer responds directly.
-
 + The machine language is also referred to as the machine code, although the term is used more broadly to refer to any program text.
-</details>
-
 
 A machine language instruction generally has three parts as shown in Fig. 1.5.
 
@@ -96,7 +102,7 @@ The command as a whole, is divided into two _parts_:
 
 - The second part of the instruction either specifies that the operand contains data on which the operation has to be performed or it specifies that the operand contains a location, the contents of which have to be subjected to the operation.
 
-      Machine language is considered to be the first generation language (1GL).
+    Machine language is considered to be the first generation language (1GL).
 
 
 Here's the advantages and disadvantages of assembly language:
@@ -114,7 +120,7 @@ Now, as is clearly seen, the machine language is way too impractical to use. Thu
 
 _mnemonic codes_ is just a fancy way to say "_aliases_ for something", like _short-forms_.
 
-       Assembly language is considered to be the second generation language (2GL).
+    Assembly language is considered to be the second generation language (2GL).
 
 Machine and assembly languages are referred to as low-level languages since the coding for a problem is at the individual instruction level.  Each computer has its own assembly language that is dependent upon the internal architecture of the processor.
 
