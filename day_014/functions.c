@@ -27,19 +27,19 @@ void greet(char*);
 int main(int argc, char const *argv[]) {
 
 // =========================== Calling the Function ============================
-    greet("Aliasgar");
+    greet("Novus");
     // ^ This is a function call. Calling a function will cause the program to
     // execute whatever the function does, i.e. the function does whatever it's
     // defined to do.
     //
     // In this case, I'm calling the function "greet" with the argument
-    // "Aliasgar".
+    // "Novus".
     //
     // The function "greet" that's defined after the main function, simply
     // prints "Hello, " followed by whatever argument is passed into the
     // function, followed by an "!".
     //
-    // Expected output: "Hello, Aliasgar!\n".
+    // Expected output: "Hello, Novus!\n".
 // =============================================================================
 
     return 0;

@@ -3,7 +3,7 @@
 In the Name of Allah, The All-Encompassing, the Boundless, The Absolute Truth.
 
 This day marks the beginning of a new chapter!
-> This is where the fun begins (.... I think)
+> This is where the fun begins (... I think)
 
 ## Control Statements in C
 
