@@ -6,7 +6,7 @@ In the name of Allah, The Perfection and Giver of Peace, The Firm, The Steadfast
 > Welcome back I guess, or if you're reading this stuff all in one go, then welcome back anyways :P \
 > I guess I'll just get into it :)
 
-In the previous entry, i.e. [`Day 14`](day_14), I dived into the shallow waters of the concepts related to/surrounding the topic of `functions`.
+In the previous entry, i.e. [`Day 14`](https://github.com/NovusEdge/c-learning-journey/tree/main/day_014), I dived into the shallow waters of the concepts related to/surrounding the topic of `functions`.
 
 Next up is a small yet useful-to-know topic... _external variables_
 
