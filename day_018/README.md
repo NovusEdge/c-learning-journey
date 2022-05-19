@@ -43,6 +43,11 @@ is replaced by the contents of the file `filename`. The two statements above are
 
 An include file may itself containn `#include` lines. There are often several `#include` lines at the beginning of a source file, to include common `#define` statements and extern declarations, or to access the function prototype declarations for library functions from headers like `<stdio. h>`. (Strictly speaking, these need not be files; the details of how headers are accessed are implementation-dependent.) `#include` is the preferred way to tie the declarations together for a large program. It guarantees that all the source files will be supplied with the same definitions and variable declarations, and thus eliminates a particularly nasty kind of bug. Naturally, when an included file is changed, all files that depend on it must be recompiled.
 
+Here's a great reference for recursion: https://takeuforward.org/recursion/what-is-recursion/
+
+> Well, that'll be all for now. \
+> For the people who're reading this, if you have _any_ suggestions and querys and such, please do not reach out to me ( just kidding, you can email me :) ).
+
 ---
 
 [^1]: https://en.wikipedia.org/wiki/Recursion
