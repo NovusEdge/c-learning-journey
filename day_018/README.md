@@ -46,7 +46,7 @@ An include file may itself containn `#include` lines. There are often several `#
 Here's a great reference for recursion: https://takeuforward.org/recursion/what-is-recursion/
 
 > Well, that'll be all for now. \
-> For the people who're reading this, if you have _any_ suggestions and querys and such, please do not reach out to me ( just kidding, you can email me :) ).
+> For the people who're reading this, if you have _any_ suggestions and querys and such, please do not reach out to me ( just kidding, you can email me :P ).
 
 ---
 
